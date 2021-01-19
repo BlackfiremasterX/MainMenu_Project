@@ -12,9 +12,9 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/akronim"
-        android:text="MainMenu"
+        android:fontFamily="@font/metal_mania"
         android:gravity="center"
+        android:text="MainMenu"
         android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -39,6 +39,7 @@
             android:id="@+id/b_continue"
             style="@style/Menu_Buttons"
             android:background="@color/orange"
+            android:fontFamily="@font/metal_mania"
             android:text="Continue" />
 
         <Button
@@ -46,24 +47,28 @@
             android:id="@+id/b_new_game"
             style="@style/Menu_Buttons"
             android:background="@color/orange"
+            android:fontFamily="@font/metal_mania"
             android:text="New Game" />
 
         <Button
             android:id="@+id/b_load_game"
             style="@style/Menu_Buttons"
             android:background="@color/orange"
+            android:fontFamily="@font/metal_mania"
             android:text="Load Game" />
 
         <Button
             android:id="@+id/b_options"
             style="@style/Menu_Buttons"
             android:background="@color/orange"
+            android:fontFamily="@font/metal_mania"
             android:text="Options" />
 
         <Button
             android:id="@+id/b_exit"
             style="@style/Menu_Buttons"
             android:background="@color/orange"
+            android:fontFamily="@font/metal_mania"
             android:text="Exit" />
 
 

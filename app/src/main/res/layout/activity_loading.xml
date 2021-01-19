@@ -12,10 +12,10 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/akronim"
+        android:fontFamily="@font/metal_mania"
+        android:gravity="center"
         android:text="Loading..."
         android:textSize="40sp"
-        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -30,6 +30,7 @@
         android:layout_width="86dp"
         android:layout_height="49dp"
         android:background="@color/orange"
+        android:fontFamily="@font/metal_mania"
         android:text="Exit" />
 
 
